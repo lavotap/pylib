@@ -1,0 +1,40 @@
+CAUTION:<__init__@Path>:Argument work_path ./ is not a absolute path!
+CAUTION:<change_path@Path>:Argument work_path ./f1 is not a absolute path!
+ 当前路径为： ./f1
+ 当前路径下的所有文件： ['.d6', '.f3', 'd1', 'd2.ap', 'd3.bp', 'd4.ap', 'd5.cp', 'f2']
+ 当前路径下无扩展名的文件有： ['.d6', 'd1']
+ 当前路径下扩展名为'ap'的文件有： ['d2.ap', 'd4.ap']
+ 当前路径下扩展名为'bp'的文件有： ['d3.bp']
+ 当前路径下扩展名为'cp'的文件有： ['d5.cp']
+ 当前路径下扩展名为'dp'的文件有： []
+ 当前路径下具有文件(file)属性的文件有： ['.d6', 'd1', 'd2.ap', 'd3.bp', 'd4.ap', 'd5.cp']
+ 当前路径下具有目录(direction)属性的文件有： ['.f3', 'f2']
+ 当前路径下具有隐藏文件(hidden file)属性的文件有： ['.d6']
+ 当前路径下具有隐藏目录(hidden direction)属性的文件有： ['.f3']
+ 将路径转换到'./f1/f2' 
+CAUTION:<change_path@Path>:Argument work_path ./f1/f2 is not a absolute path!
+ 当前路径为： ./f1/f2
+ 将路径转换到'./f1/f2/f4' 
+CAUTION:<change_path@Path>:Argument work_path ./f1/f2/f4 is not a absolute path!
+ 当前路径为： ./f1/f2/f4
+ 返回到上一步 
+ 当前路径为： ./f1/f2
+ 再次返回到上一步 
+ 当前路径为： ./f1
+ 再次返回到上一步 
+ 当前路径为： ./
+ 再次返回到上一步 
+CAUTION:<back@Path>:Can not go back!
+ 当前路径为： ./
+前进到下一步
+CAUTION:<change_path@Path>:Argument work_path ./f1 is not a absolute path!
+ 当前路径为： ./f1
+再次前进到下一步
+CAUTION:<change_path@Path>:Argument work_path ./f1/f2 is not a absolute path!
+ 当前路径为： ./f1/f2
+再次前进到下一步
+CAUTION:<change_path@Path>:Argument work_path ./f1/f2/f4 is not a absolute path!
+ 当前路径为： ./f1/f2/f4
+再次前进到下一步
+CAUTION:<front@Path>:Can not go front!
+ 当前路径为： ./f1/f2/f4
